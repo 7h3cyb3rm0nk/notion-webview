@@ -30,7 +30,7 @@ fn main() -> wry::Result<()> {
     WebViewBuilder::new_gtk(vbox)
   };
 
-  let _webview = builder.with_url("https://7h3cyb3rm0nk.github.io/curiosity")?.build()?;
+  let _webview = builder.with_url("https://notion.so")?.build()?;
 
   event_loop.run(move |event, _, control_flow| {
     *control_flow = ControlFlow::Wait;
